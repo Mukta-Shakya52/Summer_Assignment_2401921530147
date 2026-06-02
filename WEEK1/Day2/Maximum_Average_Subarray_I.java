@@ -29,5 +29,6 @@ public class Maximum_Average_Subarray_I {
         int k=sc.nextInt();
         double answer=Average_function(arr,k);
         System.out.println("Maximum Average of Subarray is: "+answer);
+        sc.close();
     }
 }
