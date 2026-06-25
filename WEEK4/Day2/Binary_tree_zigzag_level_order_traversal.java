@@ -22,7 +22,7 @@ public class Binary_tree_zigzag_level_order_traversal {
         dfs(root,ans,0);
         return ans;
     }
-    private static void dfs(TreeNode root,List<List<Integer>> ans,int level){
+    public static void dfs(TreeNode root,List<List<Integer>> ans,int level){
         if(root==null) return;
         if(ans.size()==level){
             ans.add(new ArrayList<>());
